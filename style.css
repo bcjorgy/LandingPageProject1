@@ -1,0 +1,43 @@
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}​
+
+     img {
+     max-width: 100%;
+     display: block;
+    height: auto;
+      }
+
+
+@media only screen and (max-width: 100px) {
+  body {
+    background-color: white;
+  }
+  p {
+      color:green;
+  }
+
+}
+    
+    #nav-bar {
+      display:flex;
+      justify-content: space-around;
+      flex-direction: row;
+      background-color: #973f2d;
+      height: 40px;
+      box-sizing:border-box;
+    }
+
+a {
+  text-decoration: none;
+  color:black;
+  padding-top:4.5px;
+  font-size:20px;
+}
+    
+    body {
+
+        background-color: #b2adab;
+    }
